@@ -1,0 +1,85 @@
+
+main{
+	width: 1600px;
+	float:left;
+	text-align:left;
+}
+	
+#homeparralax{
+	  
+	  background:linear-gradient(to bottom, rgba(0,0,0,0.8),rgba(0,0,0,0.1)),url("../Images/Projects (10).jpg") center no-repeat;
+	  height: 700px; 
+	  background-attachment: fixed;
+	  background-size: cover;
+	  top:0;
+}
+
+#homeparralax h1{
+	font-family:Goudy Old Style;
+	color: white;
+	font-size:300%;
+	text-align:center;
+	padding-top: 7em;
+	padding-right:1.4em;
+}
+
+#sideplx{
+	  background:linear-gradient(to right, rgba(0,0,0,0),rgba(0,0,0,0.5)),url("../Images/Projects (11).jpg") center no-repeat;
+	  height: 700px; 
+	  background-attachment: fixed;
+	  background-size: cover;
+}
+
+#sideplx p{
+		position: relative;
+		top:2em;
+		float:right;
+		text-align:left;
+		font-size:1.5em;
+		color:	white;
+		width:650px;
+}
+
+#signup{
+	text-align:center;
+	background-image: white;
+	color:gray;
+	height: 300px;
+}
+
+#signup h1{
+padding-top:3em;
+}
+#signup img{
+	position:absolute;
+	top: 55em;
+	right:7em;
+	margin-left:400px;
+}
+
+#text1{
+	  padding: 12px 20px;
+      margin: 8px 0;
+	  height:7px;
+}
+
+#button1{
+  background-color: #22A7F0;
+  font-size: 10px;
+  padding: 10px 24px;
+  border-radius: 5px;
+  color: white;
+  border: 2px solid #22A7F0;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  margin-left:5px;
+}
+
+#button1:hover {
+  background-color: white; 
+  color:#22A7F0;
+  font-weight:bold;
+
+}
+
+
